@@ -1,0 +1,165 @@
+* {
+    max-width: 1600px;
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.zone {
+    cursor:pointer;
+    /* display:inline-block; */
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.2s linear;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.6em;
+    margin: 0;
+}
+
+li {
+    padding: 20px;
+}
+
+li a {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.container-fluid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.container-xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border: 0;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    border: 0;
+    padding-bottom: 30px;
+}
+
+.box > img {
+    width: 100%;
+    border: 0;
+    
+}
+
+.box {
+    background-color: #444;
+    padding: 100px;
+    margin: 15px;
+    border: 0;
+}
+
+.footer {
+    text-align: center;
+    font-size: 2vh;
+    border: 0;
+    height: 6vh;
+}
+
+.coverimg img {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 30px;
+    width: 50%;
+    margin: auto;
+    border: 0;
+}
+
+.boxeffect figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.boxeffect figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.coverimg img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.coverimg:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background-color: #444;
+    border: 0;
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background-color: #fff;
+    border: 0;
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background-color: #444;
+    border: 0;
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background-color: #fff;
+    border: 0;
+}
